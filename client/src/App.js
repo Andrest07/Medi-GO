@@ -80,7 +80,7 @@ function App() {
       <input type="radio" id="no" name="diarrhea" value="0" onChange={(event)=>{setDiarrhea(event.target.value);}}></input>
       <label for="no">No</label><br></br>
 
-      <label>Do you have <div class="tooltip">conjunctivitis<span class="tooltiptext">red eyes</span></div></label><br></br>
+      <label>Do you have <div class="tooltip">conjunctivitis<span class="tooltiptext">Red eyes</span></div></label><br></br>
       <input type="radio" id="yes" name="conjunctivitis" value="1" onChange={(event)=>{setConjunctivitis(event.target.value);}}></input>
       <label for="yes">Yes</label><br></br>
       <input type="radio" id="no" name="conjunctivitis" value="0" onChange={(event)=>{setConjunctivitis(event.target.value);}}></input>
