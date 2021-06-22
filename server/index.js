@@ -7,10 +7,10 @@ app.use(cors());
 app.use(express.json());
 
 const db = mysql.createConnection({
-    user: 'root',
+    user: 'medigome_root',
     host: 'localhost',
-    password: '',
-    database: 'MediGO',
+    password: 'iCrUew9X9D5mEqg',
+    database: 'medigome_MediGO',
 });
 
 app.post('/create', (req, res)=>{
