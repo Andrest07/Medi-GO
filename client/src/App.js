@@ -136,7 +136,7 @@ function App() {
       <input type="radio" id="no" name="lossOfSpeechOrMovement" value="0" onChange={(event)=>{setLossOfSpeechOrMovement(event.target.value);}}></input>
       <label for="no">No</label><br></br>
 
-      <br></br><button onClick={addAnswer,showAnswer}>Submit</button>
+      <br></br><button onClick={function(event){addAnswer();showAnswer();}}>Submit</button>
     </div>
   );
 }
