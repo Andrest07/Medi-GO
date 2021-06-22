@@ -38,11 +38,11 @@ function App() {
   };
 
   const showAnswer = () => {
-    if (fever == 1 && dryCough == 1 && tiredness == 1) {
+    if (fever === 1 && dryCough === 1 && tiredness === 1) {
       window.alert("You most likely have Covid-19! We're not medical experts and this quiz is not an accurate measure so please contact a medical expert to be sure.")
-    } else if ((fever == 1 && dryCough == 1) || (fever == 1 && tiredness == 1) || (tiredness == 1 && dryCough == 1)){
+    } else if ((fever === 1 && dryCough === 1) || (fever === 1 && tiredness === 1) || (tiredness === 1 && dryCough === 1)){
       window.alert("You might have Covid-19! We're not medical experts and this quiz is not an accurate measure so please contact a medical expert to be sure.")
-    } else if (difficultyBreathing == 1 || chestPain == 1 || lossOfSpeechOrMovement == 1){
+    } else if (difficultyBreathing === 1 || chestPain === 1 || lossOfSpeechOrMovement === 1){
       window.alert("Covid-19 or not please go to the doctor! We're not medical experts and this quiz is not an accurate measure so please contact a medical expert to be sure.")
     } else {
       window.alert("Probably not Covid-19! We're not medical experts and this quiz is not an accurate measure so please contact a medical expert to be sure.")
